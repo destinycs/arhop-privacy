@@ -10,6 +10,7 @@
          font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", sans-serif; }
   h1 { font-size: 1.6rem; margin-bottom: .25rem; }
   h2 { font-size: 1.15rem; margin-top: 2.2rem; }
+  h3 { font-size: 1rem; margin: 1.6rem 0 .4rem; }
   .date { opacity: .7; font-size: .9rem; }
   hr { margin: 3rem 0; border: 0; border-top: 1px solid rgba(128,128,128,.35); }
   table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
@@ -23,13 +24,19 @@
 <h1>ARHOP 개인정보 처리방침</h1>
 <p class="date">시행일: 2026년 10월 9일</p>
 
-<p>ARHOP(이하 "앱")은 이용자의 개인정보를 수집하지 않습니다. 이 방침은 앱이 무엇을
-기기에서 사용하고 무엇을 저장하는지를 밝히기 위한 것입니다.</p>
+<p>ARHOP(이하 "앱")은 iPhone 과 Android 로 제공됩니다. 앱에는 계정과 서버가 없고, 개발자는
+이용자의 개인정보를 수집하지 않습니다. 이 방침은 앱이 무엇을 기기에서 사용하고 무엇을
+저장하는지를 밝히기 위한 것입니다.</p>
+
+<p><strong>Android 판은 Google 이 제공하는 구성요소(Google Play AR 서비스, ML Kit)를 쓰며, 이
+구성요소가 기기 정보와 진단 정보를 Google 로 보냅니다.</strong> 사진·그림·카메라 영상은 보내지
+않습니다. 자세한 내용은 12항에 있으며, Android 판에서 1~11항과 다른 부분은 12항을 따릅니다.</p>
 
 <h2>1. 수집하는 개인정보</h2>
 <p><strong>없습니다.</strong> 앱은 계정을 만들지 않으며, 이름·이메일·전화번호·생년월일·위치 등
-어떤 개인정보도 요청하거나 수집하지 않습니다. 앱에는 서버가 없고, 이용자의 데이터를 외부로
-전송하지 않습니다.</p>
+어떤 개인정보도 요청하거나 수집하지 않습니다. 앱에는 서버가 없고, 개발자는 이용자의 데이터를
+받지 않습니다. iPhone 판은 이용자의 데이터를 외부로 전송하지 않습니다. Android 판의 Google
+구성요소가 Google 로 보내는 정보는 12항에 있습니다.</p>
 
 <h2>2. 카메라</h2>
 <p>앱은 증강현실(AR) 기능을 위해 카메라를 사용합니다. 카메라 영상은 <strong>기기 안에서
@@ -48,9 +55,10 @@
 <ul>
   <li><strong>불러오기</strong> — 이용자가 앨범에서 사진을 고르면 그 사진을 앱 안으로
       가져와 그림으로 변환합니다. 앱은 앨범을 스캔하거나 목록을 읽지 않습니다.</li>
-  <li><strong>저장</strong> — 이용자가 "사진공유"나 "영상공유"를 누르고 iOS 공유 시트에서
-      "이미지 저장" 또는 "비디오 저장"을 선택했을 때만 앨범에 저장됩니다. 저장 여부는 이용자가
-      결정합니다.</li>
+  <li><strong>저장</strong> — iPhone 판은 이용자가 "사진공유"나 "영상공유"를 누르고 iOS 공유
+      시트에서 "이미지 저장" 또는 "비디오 저장"을 선택했을 때만 앨범에 저장됩니다. 저장 여부는
+      이용자가 결정합니다. Android 판은 "사진공유"·"영상공유"를 누르면 공유 화면보다 먼저
+      갤러리에 저장합니다(12항).</li>
 </ul>
 
 <h2>4. 기기에 저장되는 것</h2>
@@ -65,26 +73,32 @@
 함께 삭제됩니다.</strong></p>
 
 <h2>5. 분석·추적</h2>
-<p>앱은 분석 도구(analytics)나 추적(tracking) 기술을 사용하지 않습니다. 광고 식별자(IDFA)를
-읽지 않으며, 이용자를 식별하거나 다른 앱·웹사이트에서의 활동과 연결하지 않습니다.</p>
+<p>개발자는 앱에 분석 도구(analytics)나 광고·추적(tracking) 기술을 넣지 않았습니다. 광고
+식별자(iPhone 의 IDFA, Android 의 광고 ID)를 읽지 않으며, 이용자를 식별하거나 다른
+앱·웹사이트에서의 활동과 연결하지 않습니다. Android 판의 Google 구성요소가 Google 의 진단·사용
+분석을 위해 보내는 정보는 12항에 있습니다.</p>
 
 <h2>6. 인앱 구매</h2>
-<p>앱 내 구매는 Apple의 App Store를 통해 처리됩니다. 결제 정보는 Apple이 처리하며
-<strong>앱은 카드 번호 등 결제 정보를 보거나 저장하지 않습니다.</strong> 구매 여부(무제한
-해제 권리)만 Apple로부터 확인합니다. Apple의 개인정보 처리에 대해서는 Apple의 개인정보
-정책을 참고하십시오.</p>
+<p>앱 내 구매는 iPhone 판은 Apple 의 App Store, Android 판은 Google Play 결제를 통해 처리됩니다.
+결제 정보는 Apple 또는 Google 이 처리하며 <strong>앱은 카드 번호 등 결제 정보를 보거나 저장하지
+않습니다.</strong> 구매 여부(무제한 해제 권리)만 스토어로부터 확인합니다. Apple·Google 의
+개인정보 처리에 대해서는 각 회사의 개인정보 정책을 참고하십시오.</p>
 
 <h2>7. 아동</h2>
-<p>앱은 만 13세 미만 아동으로부터 개인정보를 고의로 수집하지 않습니다. 앱은 어떤 이용자로부터도
-개인정보를 수집하지 않으므로 아동으로부터도 수집하지 않습니다.</p>
+<p>앱은 만 13세 미만 아동으로부터 개인정보를 고의로 수집하지 않습니다. 개발자는 어떤 이용자로부터도
+개인정보를 수집하지 않으므로 아동으로부터도 수집하지 않습니다. Android 판의 Google 구성요소가
+보내는 정보는 12항과 같습니다.</p>
 
 <h2>8. 제3자 제공</h2>
-<p>수집하는 개인정보가 없으므로 제3자에게 제공하거나 판매하는 개인정보도 없습니다.</p>
+<p>개발자가 수집하는 개인정보가 없으므로 제3자에게 제공하거나 판매하는 개인정보도 없습니다.
+Android 판의 Google 구성요소는 개발자를 거치지 않고 Google 로 직접 정보를 보내며, Google 은 이
+정보를 제3자에게 제공하지 않는다고 밝히고 있습니다(12항).</p>
 
 <h2>9. 이용자의 권리</h2>
 <p>앱이 저장한 모든 데이터는 이용자의 기기 안에 있습니다. 앱 내에서 그림을 삭제하거나,
 앱을 삭제해 전부 지울 수 있습니다. 앱이 보관하는 이용자 데이터가 외부에 없으므로 별도의
-열람·삭제 요청 절차가 필요하지 않습니다.</p>
+열람·삭제 요청 절차가 필요하지 않습니다. Android 판의 Google 구성요소가 Google 로 보낸 정보는
+12항을 보십시오.</p>
 
 <h2>10. 방침 변경</h2>
 <p>이 방침이 변경되면 이 페이지의 내용과 시행일이 갱신됩니다. 중요한 변경이 있을 경우
@@ -93,18 +107,63 @@
 <h2>11. 문의</h2>
 <p>개인정보 처리방침에 대한 문의: <a href="mailto:destinycs@naver.com">destinycs@naver.com</a></p>
 
+<h2>12. Android 판</h2>
+<p>Android 판에만 해당하는 내용입니다. 아래 Google 구성요소의 정보 처리에는
+<a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>이 적용됩니다.</p>
+
+<h3>Google Play AR 서비스(ARCore)</h3>
+<p>이 애플리케이션은 Google에서 제공하고 <a href="https://policies.google.com/privacy">Google
+개인정보처리방침</a>이 적용되는 <a href="https://play.google.com/store/apps/details?id=com.google.ar.core">Google
+Play AR 서비스(ARCore)</a>에서 실행됩니다. ARCore 는 바닥·평면 인식에 쓰입니다. Google 에 따르면
+ARCore 는 분석과 AR 기능 개선을 위해 다음 정보를 Google 로 보냅니다 — 기기 식별자(Google 계정에
+로그인한 경우 계정 식별자), 배터리·로딩 시간·지연·프레임레이트 같은 성능·진단 정보, API 사용과
+앱 활동. 제3자에게 제공하지 않으며 전송 중 암호화(HTTPS)됩니다. 앱은 카메라 영상이나 위치를
+Google 로 보내는 ARCore 기능(Cloud Anchors, Geospatial)을 쓰지 않습니다.</p>
+
+<h3>ML Kit 피사체 분할</h3>
+<p>종이 그림 스캔과 앨범 사진에서 대상을 오려내는 기능은 Google ML Kit 을 씁니다. 오려내기는
+<strong>기기 안에서 처리되며 사진·그림은 보내지 않습니다.</strong> Google 에 따르면 ML Kit 은
+진단과 사용 분석을 위해 다음 정보를 Google 로 보냅니다 — 기기 정보(제조사·모델·OS 버전), 앱
+정보(패키지 이름·버전), 기기 또는 기타 식별자, 성능 지표, API 설정, 입력·출력 크기, 기능 버전,
+이벤트 유형, 오류 코드. 제3자에게 제공하지 않으며 전송 중 암호화(HTTPS)됩니다. 오려내기 모델은
+Google Play 서비스를 통해 내려받습니다.</p>
+
+<h3>갤러리 저장</h3>
+<p>"사진공유"·"영상공유"를 누르면 공유 화면을 열기 전에 사진은 <code>Pictures/ARHOP</code>, 영상은
+<code>Movies/ARHOP</code> 폴더에 먼저 저장합니다(Android 10 이상). 공유를 취소해도 저장한 파일은
+남으며, 갤러리 앱에서 지울 수 있습니다. 저장을 위해 별도 권한을 요청하지 않습니다.</p>
+
+<h3>사진 불러오기</h3>
+<p>Android 사진 선택 도구에서 이용자가 고른 사진 한 장만 앱에 전달됩니다. 앱은 갤러리 전체에
+접근하는 권한을 요청하지 않습니다.</p>
+
+<h3>결제 · 별점</h3>
+<p>구매는 Google Play 결제로 처리됩니다. 별점 요청은 Google Play 의 인앱 리뷰 창을 쓰며, 별점과
+리뷰는 Google Play 가 처리합니다.</p>
+
+<h3>Google 로 보낸 정보에 대한 권리</h3>
+<p>위 구성요소가 Google 로 보낸 정보는 개발자가 받거나 열람할 수 없습니다. 이 정보의 처리와
+이용자의 권리(열람·삭제 등)는 Google 개인정보처리방침을 따릅니다.</p>
+
 <hr>
 
 <h1>ARHOP Privacy Policy</h1>
 <p class="date">Effective: October 9, 2026</p>
 
-<p>ARHOP (the "App") does not collect personal information. This policy explains what the
-App uses on your device and what it stores there.</p>
+<p>ARHOP (the "App") is available for iPhone and Android. The App has no accounts and no server,
+and the developer does not collect personal information. This policy explains what the App uses
+on your device and what it stores there.</p>
+
+<p><strong>The Android version uses components provided by Google (Google Play Services for AR and
+ML Kit), and these components send device and diagnostic information to Google.</strong> They do not
+send your photos, drawings or camera feed. See section 12 for details; where the Android version
+differs from sections 1–11, section 12 applies.</p>
 
 <h2>1. Information We Collect</h2>
 <p><strong>None.</strong> The App has no accounts and does not request or collect your name,
-email address, phone number, date of birth, or location. The App has no server and does not
-transmit your data anywhere.</p>
+email address, phone number, date of birth, or location. The App has no server, and the developer
+does not receive your data. The iPhone version does not transmit your data anywhere. For what the
+Google components in the Android version send to Google, see section 12.</p>
 
 <h2>2. Camera</h2>
 <p>The App uses the camera for augmented reality. The camera feed is <strong>processed on your
@@ -117,8 +176,10 @@ temporary storage on your device, and deleted when you close the share sheet.</p
 
 <h2>3. Photo Library</h2>
 <p>The App accesses your photo library only when you choose to. It imports a photo when you pick
-one, and saves a photo or video only if you tap "Share Photo" or "Share Video" and then choose
-"Save Image" or "Save Video" in the iOS share sheet. The App does not scan or index your library.</p>
+one. On iPhone, it saves a photo or video only if you tap "Share Photo" or "Share Video" and then
+choose "Save Image" or "Save Video" in the iOS share sheet. On Android, tapping "Share Photo" or
+"Share Video" saves to your gallery before the share screen opens (section 12). The App does not
+scan or index your library.</p>
 
 <h2>4. Stored on Your Device</h2>
 <p>Your drawings (as stroke data), images used for conversion, your free-creation counters
@@ -128,30 +189,81 @@ storage on your device. None of it leaves the device, and <strong>all of it is d
 delete the App.</strong></p>
 
 <h2>5. Analytics and Tracking</h2>
-<p>The App uses no analytics or tracking technologies. It does not read the advertising
-identifier (IDFA) and does not link your activity across other apps or websites.</p>
+<p>The developer has not added any analytics, advertising or tracking technologies to the App. It
+does not read the advertising identifier (IDFA on iPhone, Advertising ID on Android) and does not
+link your activity across other apps or websites. For what the Google components in the Android
+version send to Google for their own diagnostics and usage analytics, see section 12.</p>
 
 <h2>6. In-App Purchases</h2>
-<p>Purchases are processed by Apple through the App Store. Apple handles payment information;
-<strong>the App never sees or stores payment details.</strong> The App only checks with Apple
-whether you own the unlock.</p>
+<p>Purchases are processed by Apple through the App Store on iPhone, and by Google Play Billing on
+Android. Apple or Google handles payment information; <strong>the App never sees or stores payment
+details.</strong> The App only checks with the store whether you own the unlock.</p>
 
 <h2>7. Children</h2>
-<p>The App does not knowingly collect personal information from children under 13. It collects
-no personal information from any user.</p>
+<p>The App does not knowingly collect personal information from children under 13. The developer
+collects no personal information from any user. What the Google components in the Android version
+send is described in section 12.</p>
 
 <h2>8. Disclosure to Third Parties</h2>
-<p>Because we collect no personal information, there is none to share or sell.</p>
+<p>Because the developer collects no personal information, there is none to share or sell. The
+Google components in the Android version send information directly to Google without passing
+through the developer, and Google states that it does not share this information with third
+parties (section 12).</p>
 
 <h2>9. Your Rights</h2>
 <p>All data the App stores is on your device. You can delete drawings inside the App, or delete
-the App to remove everything.</p>
+the App to remove everything. For information the Google components in the Android version sent
+to Google, see section 12.</p>
 
 <h2>10. Changes</h2>
 <p>If this policy changes, this page and its effective date will be updated.</p>
 
 <h2>11. Contact</h2>
 <p><a href="mailto:destinycs@naver.com">destinycs@naver.com</a></p>
+
+<h2>12. Android Version</h2>
+<p>This section applies only to the Android version. The
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a> governs how the Google
+components below handle information.</p>
+
+<h3>Google Play Services for AR (ARCore)</h3>
+<p>This application runs on <a href="https://play.google.com/store/apps/details?id=com.google.ar.core">Google
+Play Services for AR (ARCore)</a>, which is provided by Google and governed by the
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a>. ARCore is used to detect
+floors and surfaces. According to Google, ARCore sends the following to Google for analytics and to
+improve AR experiences: device identifiers (or Google account identifiers when you are signed in),
+performance and diagnostic data such as battery life, load time, latency and frame rate, and API
+usage and app activity. It is not shared with third parties and is encrypted in transit (HTTPS).
+The App does not use the ARCore features that send camera images or location to Google (Cloud
+Anchors and Geospatial).</p>
+
+<h3>ML Kit Subject Segmentation</h3>
+<p>Cutting out a subject from a paper drawing or an album photo uses Google ML Kit. The cut-out is
+<strong>processed on your device, and your photos and drawings are never sent.</strong> According to
+Google, ML Kit sends the following to Google for diagnostics and usage analytics: device information
+(manufacturer, model, OS version), app information (package name, version), device or other
+identifiers, performance metrics, API configuration, input and output size, feature version, event
+type and error codes. It is not shared with third parties and is encrypted in transit (HTTPS). The
+segmentation model is downloaded through Google Play services.</p>
+
+<h3>Saving to Your Gallery</h3>
+<p>Tapping "Share Photo" or "Share Video" first saves the photo to <code>Pictures/ARHOP</code> or the
+video to <code>Movies/ARHOP</code> (Android 10 and later), before the share screen opens. The saved
+file stays even if you cancel sharing, and you can delete it in your gallery app. No extra
+permission is requested for this.</p>
+
+<h3>Importing Photos</h3>
+<p>Only the single photo you pick in the Android photo picker is passed to the App. The App does not
+request permission to access your whole gallery.</p>
+
+<h3>Purchases and Ratings</h3>
+<p>Purchases are processed by Google Play Billing. Rating prompts use Google Play's in-app review
+dialog, and ratings and reviews are handled by Google Play.</p>
+
+<h3>Your Rights Over Information Sent to Google</h3>
+<p>The developer does not receive and cannot access the information these components send to
+Google. How it is handled, and your rights such as access and deletion, are governed by the Google
+Privacy Policy.</p>
 
 </body>
 </html>
